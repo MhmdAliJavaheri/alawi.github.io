@@ -146,7 +146,7 @@ select min(age) from students s  group by age
 select age,count(students_id) as count from students s  group by age having age > 20
 
 select employees.first_name , teachers.last_name from employees inner join teachers 
-on employees.city= teachers.city order by employees.first_name
+on employees.city = teachers.city order by employees.first_name
 
 
 
